@@ -6,7 +6,7 @@ using Frontend2;
 namespace UnitTestProject2
 {
     [TestClass]
-    public class UnitTest7
+    public class UnitTestT07
     {
         [TestMethod]
         public void T07_good_changing_configuration()

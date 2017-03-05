@@ -6,7 +6,7 @@ using Frontend2;
 namespace UnitTestProject2
 {
     [TestClass]
-    public class UnitTest9
+    public class UnitTestT09
     {
         [TestMethod]
         public void T09_good_hard_for_change()

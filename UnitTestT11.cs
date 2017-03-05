@@ -6,7 +6,7 @@ using Frontend2;
 namespace UnitTestProject2
 {
     [TestClass]
-    public class UnitTest11
+    public class UnitTestT11
     {
         [TestMethod]
         public void T11_good_extract_before_sale_complex()

@@ -6,7 +6,7 @@ using Frontend2;
 namespace UnitTestProject2
 {
     [TestClass]
-    public class UnitTest3
+    public class UnitTestT03
     {
         [TestMethod]
         public void T03_good_teardown_without_configure_or_load()
