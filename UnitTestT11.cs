@@ -502,13 +502,13 @@ namespace UnitTestProject2
             vm = vendingMachines[index];                                                // Reference to the vending machine at index 0.
 
             //==================================================================================================================
-            //  CONFIGURE([0] "A", 5; "B", 10; "C", 25)
+            //  CONFIGURE([1] "Coke", 250; "water", 250; "stuff", 205)
             popNames = new List<string>() { "Coke", "water", "stuff" };
             popCosts = new List<int>() { 250, 250, 205 };
             vm.Configure(popNames, popCosts);
 
             //==================================================================================================================
-            //  CONFIGURE([0] "A", 5; "B", 10; "C", 25)
+            //  CONFIGURE([1] "A", 5; "B", 10; "C", 25)
             popNames = new List<string>() { "A", "B", "C" };
             popCosts = new List<int>() { 5, 10, 25 };
             vm.Configure(popNames, popCosts);

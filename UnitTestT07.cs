@@ -122,7 +122,7 @@ namespace UnitTestProject2
 
             //=====================================================================================================================
             //  EXTRACT([0])
-            //  CHECK_DELIVERY(0, "A"):
+            //  CHECK_DELIVERY(50, "A"):
             // Get actual list of items from the delivery chute and create expected list of items:
             items = vm.DeliveryChute.RemoveItems();
             itemsAsList = new List<IDeliverable>(items);
@@ -338,7 +338,7 @@ namespace UnitTestProject2
 
             //=====================================================================================================================
             //  EXTRACT([0])
-            //  CHECK_DELIVERY(0, "Coke"):
+            //  CHECK_DELIVERY(50, "Coke"):
             // Get actual list of items from the delivery chute and create expected list of items:
             items = vm.DeliveryChute.RemoveItems();
             itemsAsList = new List<IDeliverable>(items);
@@ -365,7 +365,7 @@ namespace UnitTestProject2
 
             //=====================================================================================================================
             //  UNLOAD([0])
-            //  CHECK_TEARDOWN(315; 0; "B", "C"):
+            //  CHECK_TEARDOWN(315; 0; "water", "stuff"):
             //  Modify fields of the StoredContents obj, which corresponds to actual VM:
             storedContents = new VendingMachineStoredContents();
 

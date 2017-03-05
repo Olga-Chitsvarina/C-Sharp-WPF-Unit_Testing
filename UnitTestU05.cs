@@ -15,7 +15,7 @@ namespace UnitTestProject2
         {
             List<VendingMachine> vendingMachines = new List<VendingMachine>();
             //==========================================================================================================
-            //  CREATE(5, 10, 25, 100; 3; 10; 10; 10):
+            //  CREATE(0; 1; 10;10;10):
             int[] coinKinds = { 0 };
             int selectionButtonCount = 1;
             int coinRackCapacity = 10;
